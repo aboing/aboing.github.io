@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五子棋</title>
+    <link rel="stylesheet" href="css/gobang.css">
+</head>
+<body>
+<div class="container">
+    <input type="button" value="开始游戏" id="start">
+    <input type="button" value="游戏模式：">
+    <input type="radio" name="mode" checked="checked">玩家对战
+    <input type="radio" name="mode" id="renji">人机对战
+    <div class="music">music</div>
+    <canvas width="600" height="600"></canvas>
+    <div class="manual">
+        <span class="restart">重新开始</span>
+        <span class="qipu">生成棋谱</span>
+    </div>
+    <div class="imgbox"></div>
+    <a href="#" id="download">下载</a>
+</div>
+</body>
+<script src="js/gobang.js"></script>
+<!--<script src="js/gobanga.js"></script>-->
+</html>

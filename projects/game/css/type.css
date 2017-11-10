@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 457136 */
+    src: url('https://at.alicdn.com/t/font_457136_vc53kqo3xf2prpb9.eot');
+    src: url('https://at.alicdn.com/t/font_457136_vc53kqo3xf2prpb9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_457136_vc53kqo3xf2prpb9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_457136_vc53kqo3xf2prpb9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_457136_vc53kqo3xf2prpb9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.login{
+    width: 1200px;
+    height: 700px;
+    background: url("../images/bj.jpg") no-repeat;
+    background-size: 1200px 700px;
+    margin:0 auto;
+    position: absolute;
+    top:8px;
+    left:70px;
+    display: block;
+    cursor: pointer;
+}
+
+.login div{
+    width: 300px;
+    height: 50px;
+    background: #ffd1d3;
+    position: absolute;
+    left:calc(50% - 150px);
+    border-radius: 18px;
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    line-height:50px;
+}
+.type{
+    top:calc(50% - 50px);
+}
+.gobang{
+    top:calc(50% + 62px);
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    background: url("../images/bj.jpg") no-repeat;
+    background-size: 1200px 700px;
+    margin:0 auto;
+    display: none;
+    cursor: pointer;
+}
+.control{
+    width: 1200px;
+    height: 50px;
+}
+.control span{
+    display: block;
+    width: 150px;
+    height: 50px;
+    float:left;
+    font-size: 34px;
+    color: #3c3b35;
+    font-family:cursive;
+    font-weight: bold;
+    margin-top:10px;
+    margin-left:120px;
+    line-height: 50px;
+}
+.control div{
+    width: 40px;
+    height: 50px;
+    float:left;
+    font-size: 34px;
+    line-height:50px;
+    color:#ff27a6;
+    margin-top:10px;
+}
+.game{
+    width: 1200px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.begin i{
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:calc(50% - 150px);
+    top:calc(50% - 150px);
+    font-size: 100px;
+    color:#ffd1d3;
+    line-height: 300px;
+    text-align: center;
+    display: none;
+}
+.newbox{
+    width: 100px;
+    height: 100px;
+    background: #ffb1c9;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    line-height:100px;
+}
+.end{
+    width: 400px;
+    height: 50px;
+    background: #ffd1d3;
+    position: absolute;
+    left:calc(50% - 200px);
+    top:calc(50% - 25px);
+    border-radius: 18px;
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    line-height:50px;
+    display: none;
+}
+.control input{
+    width:75px;
+    height: 50px;
+    background:#ffd1d3;
+    margin-top:10px;
+    border-radius:23px;
+    border:3px solid #000;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}

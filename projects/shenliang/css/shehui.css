@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 415377 */
+    src: url('https://at.alicdn.com/t/font_415377_thv7uss015gvte29.eot');
+    src: url('https://at.alicdn.com/t/font_415377_thv7uss015gvte29.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_415377_thv7uss015gvte29.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_415377_thv7uss015gvte29.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_415377_thv7uss015gvte29.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 头部开始 */
+header{
+    width: 100%;
+    height: 46px;
+    background-color: #e4e4e4;
+    border-top: 1px solid #CFCFCF;
+}
+.Rtop{
+    width: 458px;
+    height: 100%;
+    background-color:#d78f45;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.Rtop span{
+    display: block;
+    width: 96px;
+    /* height:46px; */
+    border-right: 1px solid #E3B07D;
+    float: left;
+}
+.Rtop i{
+    font-size: 18px;
+    color: #fff;
+    line-height: 23px;
+    margin-left: 10px;
+    float: left;
+}
+.Rtop h6{
+    font-size: 12px;
+    color: #fff;
+    line-height: 23px;
+    margin-left: 7px;
+    float: left;
+}
+.Rtop i:nth-child(2){
+    font-size: 3px;
+}
+.Ctop{
+    width: 213px;
+    height: 100%;
+    border-left: 1px solid #CFCFCF;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-right: 21px;
+
+}
+input{
+    width: 168px;
+    height: 100%;
+    background-color: #e4e4e4;
+    padding-left: 14px;
+
+}
+.Ctop i{
+    font-size: 18px;
+    color: #bbb;
+    line-height: 23px;
+}
+/* 头部结束 */
+
+/* nav开始 */
+nav{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    padding: 23px 135px;
+}
+.neikuan{
+    width: 1080px;
+    height: 74px;
+}
+.neikuan .imgbox{
+    width: 346px;
+    float: left;
+}
+.neikuan .wenzi{
+    width: 660px;
+    height: 74px;
+    float: left;
+    margin-left: 74px;
+}
+.wenzi li{
+    width: 16.6667%;
+    height: 74px;
+    float: left;
+}
+
+.wenzi h5{
+    font-size: 16px;
+    line-height: 110px;
+    margin-top: -13px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+.gunayu h5{
+    color: #ab8c6a;
+}
+.wenzi a:hover{
+    color:#ab8c6a ;
+}
+.wenzi i{
+    color: #ab8c6a;
+    font-size: 8px;
+    margin-left: 49px;
+}
+/* nav结束 */
+/* 关于开始 */
+#about{
+    width: 100%;
+    height: 172px;
+    background-color: #fff;
+}
+.aboutCen{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    background: url('../img/gybg.png')
+    no-repeat 160px 60px;
+
+}
+.aboutgy{
+    width: 186px;
+    height: 95px;
+    background-color: #000;
+    margin-top: 30px;
+    float: left;
+}
+.aboutgyr{
+    width: 288px;
+    height: 36px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.aboutRight{
+    width: 180px;
+    height: 149px;
+    background-color: yellow;
+    margin-top: 23px;
+    margin-right: 20px;
+    float: right;
+}
+.aboutRight li{
+    width: 60px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid #eaeaea;
+}
+.aboutR1{
+    position: relative;
+
+}
+.aboutR1 span{
+    width: 20px;
+    height: 139px;
+    background:url('../img/quan.png') no-repeat
+    -44px 0;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    right: 10px;
+    padding-top: 25px;
+}
+.aboutR1 h6{
+    font-size: 14px;
+    color: #666;
+}
+.aboutR2{
+    position: relative;
+    background-color: #fff;
+}
+.aboutR2 img{
+    display: none;
+}
+.aboutR2 span{
+    width: 20px;
+    height: 139px;
+    background:url('../img/quan.png') no-repeat;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    right: 10px;
+    padding-top: 25px;
+}
+
+.aboutR2 h6{
+    font-size: 14px;
+    color: #666;
+}
+.aboutR2:hover  img{
+    display: block;
+}
+.aboutR2:hover span{
+    transform: translateY(10px);
+}
+
+/* 关于结束 */
+/* 关于开始 */
+#about{
+    width: 100%;
+    height: 172px;
+    background-color: #fff;
+}
+.aboutCen{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    background: url('../img/gybg.png')
+    no-repeat 160px 60px;
+
+}
+.aboutgy{
+    width: 186px;
+    height: 95px;
+    background-color: #000;
+    margin-top: 30px;
+    float: left;
+}
+.aboutgyr{
+    width: 288px;
+    height: 36px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.aboutRight{
+    width: 180px;
+    height: 149px;
+    background-color: yellow;
+    margin-top: 23px;
+    margin-right: 20px;
+    float: right;
+}
+.aboutRight li{
+    width: 60px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid #eaeaea;
+}
+.aboutR1{
+    position: relative;
+
+}
+.aboutR1 span{
+    width: 20px;
+    height: 139px;
+    background:url('../img/quan.png') no-repeat
+    -44px 0;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    right: 10px;
+    padding-top: 25px;
+}
+.aboutR1 h6{
+    font-size: 14px;
+    color: #666;
+}
+.aboutR2{
+    position: relative;
+    background-color: #fff;
+
+}
+.aboutR2 span{
+    width: 20px;
+    height: 139px;
+    background:url('../img/quan.png') no-repeat
+;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    right: 10px;
+    padding-top: 25px;
+}
+
+.aboutR2 h6{
+    font-size: 14px;
+    color: #666;
+}
+
+/* 关于结束 */
+
+/*背景开始*/
+.bgimg{
+    /*width: 1349px;*/
+    /*height: 114px;*/
+    background: url("../img/bg.jpg");
+}
+.neibj{
+    width: 1080px;
+    height: 114px;
+    margin:0 auto;
+}
+/*背景结束*/
+/*列表开始*/
+.new{
+    width: 1080px;
+    /*height: 255px;*/
+    background: #fff;
+    margin:0 auto;
+}
+.list{
+    width: 1080px;
+    height: 200px;
+}
+.list li{
+    width: 1080px;
+    height: 50px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-left: 10px;
+}
+.list li:hover{
+    background: #ccc;
+    transform: translateX(5px);
+}
+.list li i{
+    font-size: 14px;
+    color:#272636;
+    line-height: 50px;
+    float:left;
+}
+.list li p{
+    width: 920px;
+    font-size: 14px;
+    color:#272636;
+    line-height: 50px;
+    margin-left:20px;
+    float:left;
+}
+.list li span{
+    display: block;
+    float:left;
+    margin-left: -20px;
+    color:#bbb;
+    line-height: 50px;
+}
+.page-bottom{
+    width: 1349px;
+    height: 180px;
+    /*background: red;*/
+    margin:0 auto;
+}
+/*列表结束*/
+/* 底部栏开始 */
+.bottom{
+    width: 100%;
+    height: 73px;
+    background-color: #d68f44;
+}
+.nei-bottom{
+    width: 1080px;
+    height: 100%;
+    /* background-color: green; */
+    margin: 0 auto;
+
+}
+.nei-bottom a{
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    line-height: 73px;
+}
+.nei-bottom span{
+    font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+    line-height: 73px;
+}
+.rightb{
+    float: right;
+}
+.rightb h6{
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    line-height: 73px;
+}
+/* 底部栏结束 */
+
+/*固定定位开始*/
+.guding{
+    width: 42px;
+    height: 123px;
+    position: fixed;
+    right:15px;
+    top:calc(50% - 61px);
+    z-index:666;
+}
+.ewm{
+    width: 42px;
+    height: 40px;
+    background: #b1b1b1 url("../img/ewm.png") no-repeat;
+    background-position:center;
+    border-bottom:1px solid #fff;
+    position: relative;
+}
+.wxm{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left:-102px;
+    top:0;
+    display: none;
+}
+.ewm:hover{
+    background-color: #ff8e1b;
+}
+.ewm:hover .wxm{
+    display: block;
+}
+.lianjie {
+    width: 42px;
+    height: 40px;
+    background: #b1b1b1 url("../img/lianjie.png") no-repeat;
+    background-position: center;
+    border-bottom:1px solid #fff;
+}
+.lianjie:hover{
+    background-color: #ff8e1b;
+}
+.totop{
+    width: 42px;
+    height: 40px;
+    background: #3d4456 url("../img/totop.png") no-repeat;
+    background-position: center;
+}
+/*固定定位结束*/

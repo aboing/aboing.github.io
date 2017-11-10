@@ -1,0 +1,107 @@
+.container{
+    width: 1200px;
+    height: 700px;
+    background: url("../images/bj.jpg") no-repeat;
+    background-size: 1200px 700px;
+    margin:0 auto;
+    cursor: pointer;
+    font-family: cursive;
+}
+canvas {
+    background: #b3c3fe;
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    right: 50%;
+    bottom: 100px;
+    display: none;
+}
+
+@keyframes show {
+    0% {
+        transform: scale(0.1, 0.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.show {
+    display: block;
+    animation: show 0.3s cubic-bezier(0.55, 0.09, 0.39, 0.99);
+}
+
+input:nth-child(1),input:nth-child(2){
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: bold;
+    background: #ffe3e3;
+    margin:36px;
+}
+input:nth-child(1),input:nth-child(2):focus{
+    outline: none;
+}
+.manual{
+    width: 800px;
+    height: 400px;
+    margin:50px auto;
+    background: rgba(251, 210, 210, 0.62);
+    display: none;
+}
+.manual span{
+    display: block;
+    width: 124px;
+    height: 200px;
+    margin-left:177px;
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+    font-weight: bold;
+    float:left;
+    line-height: 200px;
+    margin-top:100px;
+}
+.imgbox{
+    display: none;
+    width: 600px;
+    height: 600px;
+    background:#fbd2d2;
+    margin:-23px auto;
+}
+#download{
+    display: none;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000;
+    margin-top:-15px;
+}
+.music{
+    width: 50px;
+    height: 50px;
+    background: #ffddca;
+    float:right;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    font-family: cursive;
+}
+
+@keyframes mic {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.mic{
+    animation: mic 3s linear infinite;
+}

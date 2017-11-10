@@ -1,0 +1,26 @@
+*{
+	list-style: none;   
+    margin: 0;
+	text-decoration: none;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-style: normal;
+	border: none;    
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+input{
+	outline: none;  /* 去掉边框线 */
+}
+a{
+	text-decoration: none;
+	color:#454545;
+}
+
+
+
+
